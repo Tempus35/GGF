@@ -1,8 +1,8 @@
 define(function () {
 
-    var Health = {
+    var Mana = {
 		id: 0,
-        name: 'Health',
+        name: 'Mana',
         state: {
            	current: 100,
 			max: 100,
@@ -10,6 +10,6 @@ define(function () {
         }
     };
 
-    return Health;
+    return Mana;
 
 });

@@ -1,8 +1,8 @@
 define(function () {
 
-    var Health = {
+    var GeneralPoint = {
 		id: 0,
-        name: 'Health',
+        name: 'General Point',
         state: {
            	current: 100,
 			max: 100,
@@ -10,6 +10,6 @@ define(function () {
         }
     };
 
-    return Health;
+    return GeneralPoint;
 
 });
